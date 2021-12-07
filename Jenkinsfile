@@ -25,7 +25,7 @@ pipeline{
         }
          stage('Deploy'){
       steps{
-bat 'Java -jar C:/Program Files/Jenkins/workspace/ecommercebeckend/target/spring-petclinic-0.0.1-SHAPSHOT.jar'
+bat 'Java -jar C:/Program Files/Jenkins/workspace/SpringPetClinic/target/spring-petclinic-2.1.0Build-SHAPSHOT.jar'
         
         }
     }
